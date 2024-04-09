@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infoaboutme</title>
+    <link rel="stylesheet" href="infoaboutme.css">
+    <link rel="website icon" type="png" href="logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <style>
+    html{
+        height: 100%;
+    }
+    body{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #e1ffe9;
+    }
+
+    footer{
+    background-color: #000501;
+    position: absolute;
+    right: 0;
+    left: 0;
+    }
+    .footerContainer{
+        width: 95%;
+        padding: 50px 25px 15px;
+    }
+    .socialIcons{
+        display: flex;
+        justify-content: center;
+    }
+    .socialIcons a{
+        text-decoration: none;
+        padding:  10px;
+        background-color: white;
+        margin: 10px;
+        border-radius: 50%;
+    }
+    .socialIcons a i{
+        font-size: 2em;
+        color: black;
+        opacity: 0,9;
+    }
+    /* Hover affect on social media icon */
+    .socialIcons a:hover{
+        background-color: #111;
+        transition: 0.5s;
+    }
+    .socialIcons a:hover i{
+        color: white;
+        transition: 0.5s;
+    }
+    .footerNav{
+        margin: 30px 0;
+    }
+
+    .footerNav ul{
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+    }
+
+    .footerNav p{
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        color:white;
+        margin: 0px;
+        text-decoration: none;
+        font-size: 1.3em;
+        opacity: 0.7;
+    }
+    .footerNav ul li {
+        color:white;
+        margin: 0px;
+        text-decoration: none;
+        font-size: 1.3em;
+        opacity: 0.7;
+    }
+
+    .footerBottom{
+        background-color: #000;
+        padding: 10px;
+        text-align: center;
+    }
+    .footerBottom p{
+        color: white;
+        margin: 10px;
+    }
+    .designer{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        opacity: 0.7;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 400;
+        margin: 0px 5px;
+    }
+    @media (max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    } 
+    .footerNav ul li{
+        width:100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .socialIcons a{
+        padding: 8px;
+        margin: 4px;
+    }
+    }
+    </style>
+    <div class="home">
+        <nav>
+            <img src="logo.png" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="skills.html">Skills/Experiences</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="achievements.html">Achievements</a></li>
+                <li><a href="references.html">References</a></li>
+            </ul>            
+        </nav>
+        <div class="about">
+            <h2>A bit about me.
+            <p>
+                <br>Hola! My name is Jhozval E. Bacsa,a college</br>
+                student at National Teachers College (NTC)</br>
+                taking up Bachelor of Science in Information</br>
+                Technology (BSIT). I am currently 21 years</br>
+                old and single. I enjoy communicating with</br>
+                people who have a wealth of knowledge and</br>
+                experience in various aspects of life,</br>
+                including their careers. In my free time,</br>
+                I like to play online games, particularly</br>
+                competitive games like FPS and MOBA games.</br> 
+                As a gamer, I am always looking to improve</br>
+                my skills and learn new strategies.</br>
+                </p>
+            </h2>
+            <div class="images">
+                <img src="splat-app-green-clip-art-green-shapes-splat-png-removebg-preview.png" class="splat">
+                <img src="ako-removebg-preview.png" class="ako">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footerContainer">
+            <div class="socialIcons">
+                <a href="https://www.facebook.com/Anaknigosu/"target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/hiszeer/"target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com/hiszeer"target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://mail.google.com/mail/u/0/#inbox"target="_blank"><i class="fa-brands fa-google-plus"></i></a>  
+                <a href="https://www.twitch.tv/zeerseer" target="_blank"><i class="fa-brands fa-twitch"></i></a>              
+            </div>
+            <div class="footerNav">
+                <p>Contacts</br></p>
+                <ul>
+                    <li>Tel No. 09297617613</li>
+                </ul>
+            </div>  
+        </div>
+        <div class="footerBottom">
+            <p>Copyright &copy;2024; Designed by <span class="designer">Jhozval Bacsa</span></p>
+        </div>
+    </footer>
+    
+</body>
+</html>
